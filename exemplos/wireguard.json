@@ -1,0 +1,16 @@
+{
+  "displayName": "VPN Empresa (WireGuard)",
+  "checkIntervalSeconds": 30,
+  "failuresBeforeReconnect": 2,
+  "notifyOnChange": true,
+  "startWithWindows": true,
+
+  "check": {
+    "kind": "ping",
+    "host": "10.8.0.1"
+  },
+  "connect": {
+    "kind": "service",
+    "profile": "WireGuardTunnel$empresa"
+  }
+}

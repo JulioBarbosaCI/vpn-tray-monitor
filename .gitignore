@@ -1,0 +1,11 @@
+# Artefatos de build
+build/
+dist/
+*.exe
+
+# Dados locais do app
+secrets/
+*.log
+
+# Script da VM de testes local (contém credenciais da VM)
+vm.sh
